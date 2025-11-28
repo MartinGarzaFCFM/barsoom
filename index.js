@@ -1,11 +1,10 @@
-import { getInput, setOutput, setFailed } from '@actions/core';
-import github from '@actions/github';
+import * as core from '@action/core';
 
 try {
-    const nombre = getInput('nombre');
+    const nombre = core.getInput('nombre');
     const saludo = `Hola ${nombre}, soy Barsoom!`;
-    setOutput('saludo', saludo);
+    core.setOutput('saludo', saludo);
 
 } catch (error) {
-    setFailed(error.message);
+    core.setFailed(error.message);
 }
