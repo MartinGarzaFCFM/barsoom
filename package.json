@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "name": "barsoom",
+  "version": "1.0.0",
+  "description": "Esta accion imprime \"Hola Mundo\" u \"Hola\" + el nombre de la persona a quien saludara.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
